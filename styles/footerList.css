@@ -32,8 +32,8 @@
 }
 
 .lists {
-  flex-direction: row;
   display: flex;
+  flex-direction: row;
   margin-right: 3rem;
   margin-top: 0;
 }
