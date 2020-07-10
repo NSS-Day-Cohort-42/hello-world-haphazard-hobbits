@@ -13,11 +13,11 @@
   border: 2px solid black;
 }
 
-.country {
+.country__item {
   list-style: none;
 }
 
-.country a {
+.country__item a {
   text-decoration: none;
   color: #313131;
   font-size: 35px;
