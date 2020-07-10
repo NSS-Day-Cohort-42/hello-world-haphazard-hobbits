@@ -63,8 +63,20 @@
   width: 21rem;
 }
 
+article {
+  display: flex;
+  flex-direction: row;
+}
+
+.lists {
+  flex-direction: row;
+  display: flex;
+  margin-right: 3rem;
+  margin-top: 27rem;
+}
+
 .city__item {
-  margin-left: 8rem;
+  margin-left: 7rem;
 }
 
 .landmark__item {
@@ -75,14 +87,6 @@
   margin-left: 1rem;
 }
 
-article {
-  display: flex;
-  flex-direction: row;
-  margin-top: 28rem;
-}
-
-.lists {
-  flex-direction: row;
-  display: flex;
-  margin-right: 3rem;
+h2 {
+  margin-bottom: 1rem;
 }
