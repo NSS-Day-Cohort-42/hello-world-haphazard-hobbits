@@ -36,4 +36,6 @@
   display: flex;
   margin-right: 3rem;
   margin-top: 0;
+  width: 100%;
+  max-width: 100%;
 }
