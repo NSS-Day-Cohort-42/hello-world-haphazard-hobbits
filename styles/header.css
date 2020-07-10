@@ -1,0 +1,24 @@
+.countries {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-top: 2rem;
+  border: 2px solid black;
+}
+
+.country__item {
+  list-style: none;
+}
+
+.country__item a {
+  text-decoration: none;
+  color: #313131;
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+  padding: 2rem 3rem;
+}
+
+.hobbit {
+  font-family: "Montserrat", sans-serif;
+  margin: 5px;
+}
