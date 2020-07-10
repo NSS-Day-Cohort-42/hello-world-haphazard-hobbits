@@ -1,0 +1,27 @@
+.city__item {
+  margin-left: 7rem;
+}
+
+.city__item a {
+  color: black;
+}
+
+.landmark__item {
+  margin-left: 5rem;
+}
+
+.landmark__item a {
+  color: black;
+}
+
+.heads__item {
+  margin-left: 1rem;
+}
+
+.heads__item a {
+  color: black;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
