@@ -1,20 +1,35 @@
 Cities:
-Reykjavík 	
+Reykjavík
+https://en.wikipedia.org/wiki/Reykjavík 	
 Kópavogur
+https://en.wikipedia.org/wiki/K%C3%B3pavogur
 Hafnarfjörður
+https://en.wikipedia.org/wiki/Hafnarfj%C3%B6r%C3%B0ur
 Reykjanesbær
+https://en.wikipedia.org/wiki/Reykjanesb%C3%A6r
 Akureyri
+https://en.wikipedia.org/wiki/Akureyri
 Garðabær
+https://en.wikipedia.org/wiki/Gar%C3%B0ab%C3%A6r
 Mosfellsbær
+https://en.wikipedia.org/wiki/Mosfellsb%C3%A6r
 
 Landmarks:
 Thingvellir National Park - Rugged volcanic national park & lakes
+https://www.thingvellir.is/en/
 Gullfoss Falls - Famed, multi-section waterfall
+https://en.wikipedia.org/wiki/Gullfoss
 Golden Circle - Aurora, geyser, glacier, and hot spring
+https://www.nordicvisitor.com/blog/driving-golden-circle-how-to-guide/
 Jökulsárlón - Big glacial lake with icebergs & seals
-
+https://icelagoon.is/
 Heads of State:
 
 Guðni Th. Jóhannesson - President
+https://en.wikipedia.org/wiki/Gu%C3%B0ni_Th._J%C3%B3hannesson
 The Althing - parliment with 63 members
+https://en.wikipedia.org/wiki/Althing
 Þorgeir Örlygsson - Supreme Court President
+https://www.bloomsbury.com/author/thorgeir-orlygsson
+
+
