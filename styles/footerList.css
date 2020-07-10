@@ -1,0 +1,39 @@
+.cities__list {
+  text-decoration: none;
+  color: #313131;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  padding: 0 3rem;
+  list-style: none;
+  border: 2px solid black;
+  width: 20rem;
+}
+
+.landmarks__list {
+  text-decoration: none;
+  color: #313131;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  padding: 0 3rem;
+  list-style: none;
+  border: 2px solid black;
+  width: 20rem;
+}
+
+.heads__list {
+  text-decoration: none;
+  color: #313131;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  padding: 0 3rem;
+  list-style: none;
+  border: 2px solid black;
+  width: 21rem;
+}
+
+.lists {
+  flex-direction: row;
+  display: flex;
+  margin-right: 3rem;
+  margin-top: 0;
+}

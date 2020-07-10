@@ -1,95 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import "./header.css";
+@import "./footerList.css";
+@import "./footerItems.css";
 
 * {
   padding: 0;
   margin: 0;
 }
 
-.countries {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  margin-top: 2rem;
-  border: 2px solid black;
-}
-
-.country__item {
-  list-style: none;
-}
-
-.country__item a {
-  text-decoration: none;
-  color: #313131;
-  font-size: 35px;
-  font-family: "Montserrat", sans-serif;
-  padding: 2rem 3rem;
-}
-
-.hobbit {
-  font-family: "Montserrat", sans-serif;
-  margin: 5px;
-}
-
-.cities__list {
-  text-decoration: none;
-  color: #313131;
-  font-size: 15px;
-  font-family: "Montserrat", sans-serif;
-  padding: 0 3rem;
-  list-style: none;
-  border: 2px solid black;
-  width: 20rem;
-}
-
-.landmarks__list {
-  text-decoration: none;
-  color: #313131;
-  font-size: 15px;
-  font-family: "Montserrat", sans-serif;
-  padding: 0 3rem;
-  list-style: none;
-  border: 2px solid black;
-  width: 20rem;
-}
-
-.heads__list {
-  text-decoration: none;
-  color: #313131;
-  font-size: 15px;
-  font-family: "Montserrat", sans-serif;
-  padding: 0 3rem;
-  list-style: none;
-  border: 2px solid black;
-  width: 21rem;
-}
-
 article {
   display: flex;
   flex-direction: row;
   padding: 0;
-}
-
-.lists {
-  flex-direction: row;
-  display: flex;
-  margin-right: 3rem;
-  margin-top: 0;
-}
-
-.city__item {
-  margin-left: 7rem;
-}
-
-.landmark__item {
-  margin-left: 5rem;
-}
-
-.heads__item {
-  margin-left: 1rem;
-}
-
-h2 {
-  margin-bottom: 1rem;
 }
 
 img {
