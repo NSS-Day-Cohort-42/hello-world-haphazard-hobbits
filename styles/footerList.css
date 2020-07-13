@@ -34,7 +34,6 @@
 .lists {
   display: flex;
   flex-direction: row;
-  flex-grow: auto;
   margin-right: 3rem;
   margin-top: 0;
   width: 100%;
