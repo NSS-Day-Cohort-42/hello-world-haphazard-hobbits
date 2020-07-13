@@ -38,6 +38,31 @@
   display: flex;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/45/Flag_of_Ireland.svg");
   background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.iceland {
+  display: flex;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/236px-Flag_of_Iceland.svg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 15rem 7rem;
+}
+
+.czech {
+  display: flex;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/255px-Flag_of_the_Czech_Republic.svg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 25rem 7rem;
+}
+
+.the-netherlands {
+  display: flex;
+  background-image: url("https://cdn.britannica.com/82/2982-004-ABEB3852/flag-prototype-Netherlands-countries-European-flags.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 24rem 7rem;
 }
 
 .netherlands {
