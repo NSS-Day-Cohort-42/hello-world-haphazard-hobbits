@@ -4,7 +4,12 @@
   display: flex;
   margin-top: 0.5rem;
   border: 2px solid black;
+<<<<<<< HEAD
+  width: 100%;
+  max-width: 100%;
+=======
   justify-content: space-between;
+>>>>>>> master
 }
 
 .country__item {
@@ -18,6 +23,12 @@
   font-size: 35px;
   font-family: "Montserrat", sans-serif;
   padding: 2rem 3rem;
+}
+
+.country__item a:hover {
+  display: flex;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQjIOSpWPGJLcqcLygU6GNXz7nqmnll143SIw&usqp=CAU);
+  background-size: contain;
 }
 
 .hobbit {

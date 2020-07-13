@@ -28,7 +28,7 @@
   padding: 0 3rem;
   list-style: none;
   border: 2px solid black;
-  width: 21rem;
+  width: 22rem;
 }
 
 .lists {
@@ -36,4 +36,6 @@
   flex-direction: row;
   margin-right: 3rem;
   margin-top: 0;
+  width: 100%;
+  max-width: 100%;
 }
