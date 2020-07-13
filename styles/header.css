@@ -4,12 +4,7 @@
   display: flex;
   margin-top: 2rem;
   border: 2px solid black;
-<<<<<<< HEAD
-  width: 100%;
-  max-width: 100%;
-=======
   justify-content: space-between;
->>>>>>> master
 }
 
 .country__item {
