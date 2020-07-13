@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   display: flex;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
   border: 2px solid black;
   justify-content: space-between;
 }
@@ -28,7 +28,10 @@
 
 .hobbit {
   font-family: "Montserrat", sans-serif;
-  margin: 5px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+
 }
 
 .ireland {
