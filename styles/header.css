@@ -4,12 +4,17 @@
   display: flex;
   margin-top: 2rem;
   border: 2px solid black;
+<<<<<<< HEAD
   width: 100%;
   max-width: 100%;
+=======
+  justify-content: space-between;
+>>>>>>> master
 }
 
 .country__item {
   list-style: none;
+  display: flex;
 }
 
 .country__item a {
@@ -29,4 +34,10 @@
 .hobbit {
   font-family: "Montserrat", sans-serif;
   margin: 5px;
+}
+
+.ireland {
+  display: flex;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/45/Flag_of_Ireland.svg");
+  background-size: contain;
 }
