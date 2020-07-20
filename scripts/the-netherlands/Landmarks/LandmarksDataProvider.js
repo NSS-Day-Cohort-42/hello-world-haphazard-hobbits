@@ -1,21 +1,21 @@
-const cities = [
+const landmarks = [
   {
-    name: "Prague",
+    name: "Rijksmuseum",
     link:
-      "https://www.tripadvisor.com/Tourism-g274707-Prague_Bohemia-Vacations.html",
+      "https://www.rijksmuseum.nl/en",
   },
   {
-    name: "Brno",
-    link: "https://www.gotobrno.cz/en/",
+    name: "Van Gogh Museum",
+    link: "https://www.vangoghmuseum.nl/en/collection/s0032V1962",
   },
   {
-    name: "Ostrava",
-    link: "https://www.czechtourism.com/t/ostrava/",
+    name: "Rembrandthouse Museum",
+    link: "https://www.rembrandthuis.nl/ticket-shop/prices-and-information/?lang=en",
   },
   {
-    name: "Plzeň",
-    link: "https://www.pilsen.eu/tourist/",
+    name: "Cube Houses",
+    link: "https://www.holland.com/global/tourism/destinations/rotterdam/rotterdam-cube-houses.htm",
   },
 ]
 
-export const useCities = () => cities.slice()
+export const useLandmarks = () => landmarks.slice()
