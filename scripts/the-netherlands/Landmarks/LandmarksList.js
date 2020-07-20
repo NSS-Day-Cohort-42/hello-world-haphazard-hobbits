@@ -1,5 +1,4 @@
 import { landmarksHTML } from "./LandmarksHTML.js"
-import { useLandmarks } from "./DataProvider.js"
 import { useLandmarks } from "./LandmarksDataProvider.js"
 
 export const listLandmarks = () => {
