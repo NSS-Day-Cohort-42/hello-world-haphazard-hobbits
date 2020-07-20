@@ -6,7 +6,10 @@ export const listCities = () => {
   const targetContent = document.querySelector(".lists")
 
   let allCitiesHTML = ''
-  useCities().forEach(city => { allCitiesHTML += citiesHTML(city) })
+
+  for (let city of useCities()) {
+    allCitiesHTML += citiesHTML(city)
+  }
 
   targetContent.innerHTML += `
     <ul class="cities__list">
