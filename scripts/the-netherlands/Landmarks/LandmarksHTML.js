@@ -1,7 +1,8 @@
 export const landmarksHTML = (landmark) => {
-    return `
+      return `
         <li class="landmark__item">
-            <a href="${landmark.link}">${landmark.name}</a>
+          <a href="${landmark.link}">${landmark.name}</a>
         </li>
         `
-}
+    }
+    

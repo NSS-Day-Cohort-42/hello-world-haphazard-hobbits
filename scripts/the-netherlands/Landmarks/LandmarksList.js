@@ -1,11 +1,10 @@
 import { landmarksHTML } from "./LandmarksHTML.js"
 import { useLandmarks } from "./LandmarksDataProvider.js"
 
-
 export const listLandmarks = () => {
   const targetContent = document.querySelector(".lists")
 
-  let allLandmarksHTML = ''
+  let allLandmarksHTML = ""
 
   for (let landmark of useLandmarks()) {
     allLandmarksHTML += landmarksHTML(landmark)

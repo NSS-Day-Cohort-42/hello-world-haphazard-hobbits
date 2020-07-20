@@ -7,8 +7,8 @@ export const listHeadsOfState = () => {
 
   let allHeadsHTML = ''
 
-  for (let city of useHeadsOfState()) {
-    allHeadsHTML += headsOfStateHTML(city)
+  for (let head of useHeadsOfState()) {
+    allHeadsHTML += headsOfStateHTML(head)
   }
 
   targetContent.innerHTML += `
