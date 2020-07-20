@@ -31,7 +31,6 @@
   font-size: 40px;
   display: flex;
   justify-content: center;
-
 }
 
 .ireland {
@@ -63,22 +62,4 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 24rem 7rem;
-}
-
-.netherlands {
-  display: flex;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg");
-  background-size: contain;
-}
-
-.czech-republic {
-  display: flex;
-  background-image: url("https://files.slack.com/files-pri/T03F2SDTJ-F016KCRMCMD/flag-czech-republic.jpg");
-  background-size: contain;
-}
-
-.iceland {
-  display: flex;
-  background-image: url("https://files.slack.com/files-pri/T03F2SDTJ-F016YPE6B45/flag-of-iceland.jpg");
-  background-size: contain;
 }
