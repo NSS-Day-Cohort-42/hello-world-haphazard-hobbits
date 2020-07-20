@@ -1,3 +1,3 @@
-import { citiesList } from "./Cities/CitiesList.js"
+import { listCities } from "./Cities/CitiesList.js"
 
-citiesList()
+listCities()
