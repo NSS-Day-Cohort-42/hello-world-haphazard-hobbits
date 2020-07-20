@@ -1,3 +1,3 @@
-import { useCities } from "./Cities/CitiesDataProvider.js"
+import { citiesList } from "./Cities/CitiesList.js"
 
-console.log(useCities())
+console.log(citiesList())
