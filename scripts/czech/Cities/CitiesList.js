@@ -1,14 +1,19 @@
+import { citiesHTML } from "./CitiesHTML.js"
 import { useCities } from "./CitiesDataProvider.js"
-import { citiesHtml } from "./CitiesHTML.js"
 
-export const citiesList = () => {
+export const listCities = () => {
   const targetContent = document.querySelector(".lists")
-  const allCitiesHtml = useCities().map((cities) => citiesHtml(cities))
 
-  targetContent.innerHTML = +`
+  let allCitiesHTML = ""
+
+  for (let city of useCities()) {
+    allCitiesHTML += citiesHTML(city)
+  }
+
+  targetContent.innerHTML += `
     <ul class="cities__list">
-    <h2>Cities:</h2>
-    ${allCitiesHtml}
+      <h2>Cities:</h2>
+      ${allCitiesHTML}
     </ul>
   `
 }
