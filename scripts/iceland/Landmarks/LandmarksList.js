@@ -7,8 +7,8 @@ export const listLandmarks = () => {
 
   let allLandmarksHTML = ''
 
-  for (let city of useLandmarks()) {
-    allLandmarksHTML += landmarksHTML(city)
+  for (let landmark of useLandmarks()) {
+    allLandmarksHTML += landmarksHTML(landmark)
   }
 
   targetContent.innerHTML += `
