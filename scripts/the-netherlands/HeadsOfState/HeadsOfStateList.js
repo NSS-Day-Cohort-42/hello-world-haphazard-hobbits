@@ -2,7 +2,7 @@ import { headsHTML } from "./HeadsOfStateHTML.js"
 import { useHeads } from "./HeadsOfStateDataProvider.js"
 
 export const listHeads = () => {
-  const targetContent = document.querySelector(".heads")
+  const targetContent = document.querySelector(".lists")
 
   let allHeadsHTML = ""
 
