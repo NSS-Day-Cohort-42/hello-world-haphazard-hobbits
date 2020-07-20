@@ -17,6 +17,4 @@ const cities = [
     }
 ]
 
-export const useCities = () => {
-    return cities.slice()
-}
+export const useCities = () => cities.slice()

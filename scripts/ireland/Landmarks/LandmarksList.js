@@ -11,9 +11,9 @@ export const listLandmarks = () => {
     }
 
     targetContent.innerHTML += `
-    <ul class="landmarks__list">
-        <h2>Landmarks:</h2>
-        ${allLandmarksHTML}
-      </ul>
+        <ul class="landmarks__list">
+            <h2>Landmarks:</h2>
+            ${allLandmarksHTML}
+        </ul>
     `
 }

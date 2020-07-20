@@ -17,6 +17,4 @@ const landmarks = [
     }
 ]
 
-export const useLandmarks = () => {
-    return landmarks.slice()
-}
+export const useLandmarks = () => landmarks.slice()
