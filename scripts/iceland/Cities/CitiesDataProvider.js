@@ -1,4 +1,4 @@
-const cities = [
+const icelandCities = [
   {
     name: "Kópavogur",
     link: "https://en.wikipedia.org/wiki/K%C3%B3pavogur"
@@ -25,4 +25,4 @@ const cities = [
   }
 ]
 
-export const useCities = () => cities.slice()
+export const useCities = () => icelandCities.slice()
