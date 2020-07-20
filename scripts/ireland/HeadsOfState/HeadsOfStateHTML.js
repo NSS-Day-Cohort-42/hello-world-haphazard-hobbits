@@ -1,8 +1,8 @@
-export const headsOfStateHTML = (head) => {
+export const headsOfStateHTML = (headOfState) => {
     return `
     <li class="heads__item">
-        <a href="${head.link}">
-        <strong>${head.title}: </strong>${head.name}</a>
+        <a href="${headOfState.link}">
+        <strong>${headOfState.title}: </strong>${headOfState.name}</a>
     </li>
     `
 }

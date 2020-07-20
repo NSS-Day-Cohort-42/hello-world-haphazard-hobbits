@@ -21,4 +21,4 @@ const headsOfState = [
     }
 ]
 
-export const useHeads = () => headsOfState.slice()
+export const useHeadsOfState = () => headsOfState.slice()

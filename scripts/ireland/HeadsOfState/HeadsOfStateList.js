@@ -1,19 +1,19 @@
-import {useHeads} from "./HeadsOfStateDataProvider.js"
+import {useHeadsOfState} from "./HeadsOfStateDataProvider.js"
 import {headsOfStateHTML} from "./HeadsOfStateHTML.js"
 
 export const listHeadsOfState = () => {
     const targetContent = document.querySelector(".lists")
   
-    let allHeadsOfStateHTML = ''
+    let allHeadsHTML = ''
   
-    for (let head of useHeads()) {
-      allHeadsOfStateHTML += headsOfStateHTML(head)
+    for (let head of useHeadsOfState()) {
+      allHeadsHTML += headsOfStateHTML(head)
     }
   
     targetContent.innerHTML += `
       <ul class="heads__list">
         <h2>Heads of State:</h2>
-        ${allHeadsOfStateHTML}
+        ${allHeadsHTML}
       </ul>
     `
   }
