@@ -39,3 +39,7 @@
   width: 100%;
   max-width: 100%;
 }
+
+.bold__text {
+  font-weight: bold;
+}
