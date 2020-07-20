@@ -1,4 +1,4 @@
-const landmarks = [
+const icelandLandmarks = [
   {
     name: "Thingvellir National Park - Rugged volcanic national park & lakes",
     link: "https://www.thingvellir.is/en/"
@@ -17,4 +17,4 @@ const landmarks = [
   },
 ]
 
-export const useLandmarks = () => landmarks.slice()
+export const useLandmarks = () => icelandLandmarks.slice()

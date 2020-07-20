@@ -1,4 +1,4 @@
-const headsOfState = [
+const icelandHeadsOfState = [
   {
     name: "Guðni Th. Jóhannesson",
     link: "https://en.wikipedia.org/wiki/Gu%C3%B0ni_Th._J%C3%B3hannesson",
@@ -16,4 +16,4 @@ const headsOfState = [
   }
 ]
 
-export const headsOfState = () => headsOfState.slice()
+export const useHeadsOfState = () => icelandHeadsOfState.slice()
