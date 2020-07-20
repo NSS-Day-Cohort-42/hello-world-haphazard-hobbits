@@ -5,16 +5,16 @@ import { useHeadsOfState } from "./HeadsOfStateDataProvider.js"
 export const listHeadsOfState = () => {
   const targetContent = document.querySelector(".lists")
 
-  let allCitiesHTML = ''
+  let allHeadsHTML = ''
 
   for (let city of useHeadsOfState()) {
-    allCitiesHTML += headsOfStateHTML(city)
+    allHeadsHTML += headsOfStateHTML(city)
   }
 
   targetContent.innerHTML += `
     <ul class="heads__list">
       <h2>Heads of State:</h2>
-      ${allCitiesHTML}
+      ${allHeadsHTML}
     </ul>
   `
 }
