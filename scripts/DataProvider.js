@@ -254,8 +254,9 @@ const countryData = {
         link: "https://www.pilsen.eu/tourist/",
       },
     ],
+    image: "images/prague-czechia (1).jpg",
   },
-  image: "./images/prague-czechia (1).jpg",
+  
 }
 
 export const cityData = (country) => countryData[country].cities
