@@ -2,7 +2,10 @@
 @import "./header.css";
 @import "./footerList.css";
 @import "./footerItems.css";
-@import "./coinFlip.css";
+@import "./coinFlip/coinFlipNetherlands.css";
+@import "./coinFlip/coinFlipIreland.css";
+@import "./coinFlip/coinFlipIndex.css";
+@import "./coinFlip/coinFlipIceland.css";
 
 * {
   padding: 0;
