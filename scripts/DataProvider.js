@@ -259,6 +259,6 @@ const countryData = {
 }
 
 export const cityData = (country) => countryData[country].cities
-export const headData = (country) => countryData[country].headsOfState
-export const landmarkData = (country) => countryData[country].landmarks
+export const headsData = (country) => countryData[country].headsOfState
+export const landmarksData = (country) => countryData[country].landmarks
 export const imageData = (country) => countryData[country].image
