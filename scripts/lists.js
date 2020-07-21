@@ -1,3 +1,9 @@
+export const clearLists = () => {
+  const targetContent = document.querySelector(".lists")
+  targetContent.innerHTML =''
+
+}
+
 export const listCities = (dataArray, HTMLCreator) => {
   const targetContent = document.querySelector(".lists")
 
@@ -6,7 +12,7 @@ export const listCities = (dataArray, HTMLCreator) => {
   for (let city of dataArray) {
     allCitiesHTML += HTMLCreator(city)
   }
-
+  
   targetContent.innerHTML += `
     <ul class="cities__list">
       <h2>Cities:</h2>

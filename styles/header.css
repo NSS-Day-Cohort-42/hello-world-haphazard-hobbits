@@ -13,7 +13,7 @@
   display: flex;
 }
 
-.country__item a {
+.country__item p {
   text-decoration: none;
   color: #313131;
   font-size: 35px;
@@ -21,7 +21,7 @@
   padding: 2rem 3rem;
 }
 
-.country__item a:hover {
+.country__item p:hover {
   display: flex;
   background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQjIOSpWPGJLcqcLygU6GNXz7nqmnll143SIw&usqp=CAU);
   background-size: contain;
