@@ -61,6 +61,7 @@ const countryData = {
           "https://www.holland.com/global/tourism/destinations/rotterdam/rotterdam-cube-houses.htm",
       },
     ],
+    image: "./images/the-netherlands-new.jpg",
   },
   ireland: {
     headsOfState: [
@@ -124,6 +125,7 @@ const countryData = {
         link: "http://kilmainhamgaolmuseum.ie/",
       },
     ],
+    image: "./images/ireland-rock-castle.jpg",
   },
   iceland: {
     headsOfState: [
@@ -189,6 +191,7 @@ const countryData = {
         link: "https://en.wikipedia.org/wiki/Mosfellsb%C3%A6r",
       },
     ],
+    image: "/images/iceland-main.jpg",
   },
   czech: {
     headsOfState: [
@@ -252,8 +255,10 @@ const countryData = {
       },
     ],
   },
+  image: "./images/prague-czechia (1).jpg",
 }
 
 export const cityData = (country) => countryData[country].cities
-export const landmarksData = (country) => countryData[country].landmarks
 export const headsData = (country) => countryData[country].headsOfState
+export const landmarksData = (country) => countryData[country].landmarks
+export const imageData = (country) => countryData[country].image
