@@ -254,5 +254,4 @@ const countryData = {
   },
 }
 
-export const cityData = (country) =>
-  country.filter((city) => countryData.netherlands.cities.city)
+export const cityData = (country) => countryData[country].cities

@@ -1,7 +1,7 @@
-import { useCities } from "../dataProvidor.js"
-import { citiesHTML, landmarksHTML, headsOfStateHTML } from "../htmlCreator"
+import { cityData } from "../DataProvider.js"
+import { citiesHTML, landmarksHTML, headsOfStateHTML } from "../htmlCreator.js"
 import { listCities, listHeadsOfState, listLandmarks } from "../lists.js"
 
-const citiesData = useCities("iceland")
+const citiesData = cityData("iceland")
 
-listCities(cityData, citiesHTML)
+listCities(citiesData, citiesHTML)
