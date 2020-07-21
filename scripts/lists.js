@@ -54,3 +54,10 @@ export const listLandmarks = (dataArray, HTMLCreator) => {
       </ul>
     `
 }
+
+export const listImage = (imageURL, imageHTMLCreator) => {
+  const targetContent = document.querySelector("main")
+  const imageAsHTML = imageHTMLCreator(imageURL)
+
+  targetContent.innerHTML = imageAsHTML
+}

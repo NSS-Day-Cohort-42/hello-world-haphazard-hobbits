@@ -21,3 +21,8 @@ export const headsOfStateHTML = (headOfState) => {
   </li>
   `
 }
+
+export const mainImageHTML = (imageObj) => {
+  return`
+  <img src="${imageObj}" alt="CountryImage" />`
+}

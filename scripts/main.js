@@ -1,6 +1,6 @@
-import { cityData, landmarksData, headsData } from "./DataProvider.js"
-import { citiesHTML, landmarksHTML, headsOfStateHTML } from "./htmlCreator.js"
-import { listCities, listHeadsOfState, listLandmarks, clearLists } from "./lists.js"
+import { cityData, landmarksData, headsData, imageData } from "./DataProvider.js"
+import { citiesHTML, landmarksHTML, headsOfStateHTML, mainImageHTML } from "./htmlCreator.js"
+import { listCities, listHeadsOfState, listLandmarks, clearLists, listImage } from "./lists.js"
 
 
 
@@ -23,6 +23,7 @@ const displayPage = (countryName) => {
   listCities(cityData(countryName), citiesHTML)
   listLandmarks(landmarksData(countryName), landmarksHTML)
   listHeadsOfState(headsData(countryName), headsOfStateHTML)
+  listImage(imageData(countryName), mainImageHTML)
 }
 
 document.querySelector('.netherlands__button').addEventListener('click', netherlandsPage)
