@@ -190,4 +190,66 @@ const countryData = {
       },
     ],
   },
+  czech: {
+    headsOfState: [
+      {
+        name: "Miloš Zeman",
+        link: "https://en.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+        title: "President: ",
+      },
+      {
+        name: "Miloš Vystrčil",
+        link: "https://en.wikipedia.org/wiki/Milo%C5%A1_Vystr%C4%8Dil",
+        title: "President of the Senate: ",
+      },
+      {
+        name: "Andrej Babiš",
+        link: "https://en.wikipedia.org/wiki/Andrej_Babi%C5%A1",
+        title: "Prime Minister: ",
+      },
+      {
+        name: "Radek Vondráček",
+        link: "https://en.wikipedia.org/wiki/Radek_Vondr%C3%A1%C4%8Dek",
+        title: "Speaker of the Chamber of Deputies: ",
+      },
+    ],
+    landmarks: [
+      {
+        name: "Prague Castle",
+        link: "https://www.hrad.cz/en/prague-castle-for-visitors",
+      },
+      {
+        name: "Charles Bridge",
+        link:
+          "http://www.myczechrepublic.com/prague/sightseeing/charles_bridge.html",
+      },
+      {
+        name: "St. Vitus Cathedral",
+        link: "https://www.pragueexperience.com/places.asp?PlaceID=602",
+      },
+      {
+        name: "Gothic All Saints Chapel",
+        link: "https://www.pilsen.eu/tourist/",
+      },
+    ],
+    cities: [
+      {
+        name: "Prague",
+        link:
+          "https://www.tripadvisor.com/Tourism-g274707-Prague_Bohemia-Vacations.html",
+      },
+      {
+        name: "Brno",
+        link: "https://www.gotobrno.cz/en/",
+      },
+      {
+        name: "Ostrava",
+        link: "https://www.czechtourism.com/t/ostrava/",
+      },
+      {
+        name: "Plzeň",
+        link: "https://www.pilsen.eu/tourist/",
+      },
+    ],
+  },
 }
