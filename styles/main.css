@@ -14,34 +14,12 @@ article {
   padding: 0;
 }
 
-/* img {
+img {
   display: flex;
   padding: 0;
   width: 100%;
   max-width: 100%;
   margin-bottom: 0em;
-} */
-
-.slides {
-  /* We set the scroll snapping */
-  scroll-snap-type: x mandatory;
-  /* Necessary for mobile scrolling */
-  -webkit-overflow-scrolling: touch;
-  /* For layout purposes */
-  display: flex;
-  /* To allow horizontal scrolling */
-  overflow-x: scroll;
+  z-index: -1;
 }
 
-img {
-  /* For styling purposes */
-  height: 100vh;
-  min-width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* Set where the snapping should happen */
-  scroll-snap-align: start;
-}
