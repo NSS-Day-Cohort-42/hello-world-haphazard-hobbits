@@ -2,12 +2,12 @@
       z-index: -1;
 }
 
-.coin__image {
+.coin__image--netherlands {
       width: 500px;
       height: 500px;
       position: absolute;
       top: 500px;
-      right: 500px;
+      left: 500px;
       z-index: 1;
 }
 
@@ -19,7 +19,7 @@
       visibility: hidden;
 }
 
-.coin__image:hover .coin--flip {
+.coin__image--netherlands:hover .coin--flip {
       visibility: visible;
       animation: coinflip 2s infinite;
 }
