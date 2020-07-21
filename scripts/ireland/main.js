@@ -1,6 +1,6 @@
-import { listCities } from "./Cities/CitiesList.js"
-import { listHeadsOfState } from "./HeadsOfState/HeadsOfStateList.js"
-import { listLandmarks } from "./Landmarks/LandmarksList.js"
+import { listCities } from "./list.js"
+import { listHeadsOfState } from "./list.js"
+import { listLandmarks } from "./list.js"
 
 listCities()
 listLandmarks()

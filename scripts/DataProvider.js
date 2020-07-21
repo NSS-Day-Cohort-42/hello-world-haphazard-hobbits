@@ -255,3 +255,20 @@ const countryData = {
 }
 
 export const cityData = (country) => countryData[country].cities
+export const headData = (country) => countryData[country].headsOfState
+export const landmarkData = (country) => countryData[country].landmarks
+
+export const cityDataNetherlands = cityData("netherlands")
+export const cityDataIceland = cityData("iceland")
+export const cityDataIreland = cityData("ireland")
+export const cityDataCzech = cityData("czech")
+
+export const headsDataNetherlands = headData("netherlands")
+export const headsDataIceland = headData("iceland")
+export const headsDataIreland = headData("ireland")
+export const headsDataCzech = headData("czech")
+
+export const landmarksDataNetherlands = headData("netherlands")
+export const landmarksDataIceland = headData("iceland")
+export const landmarksDataIreland = headData("ireland")
+export const landmarksDataCzech = headData("czech")

@@ -18,7 +18,7 @@ export const listCities = (dataArray, HTMLCreator) => {
 export const listHeadsOfState = (dataArray, HTMLCreator) => {
   const targetContent = document.querySelector(".lists")
 
-  let allHeadsHTML = ''
+  let allHeadsHTML = ""
 
   for (let head of dataArray) {
     allHeadsHTML += HTMLCreator(head)
