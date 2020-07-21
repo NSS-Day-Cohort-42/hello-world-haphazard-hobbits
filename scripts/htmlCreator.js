@@ -24,5 +24,13 @@ export const headsOfStateHTML = (headOfState) => {
 
 export const mainImageHTML = (imageObj) => {
   return`
-  <img src="${imageObj}" alt="CountryImage" />`
+  <header class="header">
+        <div class="image__container">
+          <img src="${imageObj}" alt="CountryImage" />
+          <div class="coin__image--index">
+            <img class="coin--flip" src="./images/coin.png" />
+          </div>
+          </div>
+      </header>
+  `
 }
