@@ -1,0 +1,45 @@
+ .country__image {
+      z-index: -1;
+}
+
+.coin__image {
+      width: 500px;
+      height: 500px;
+      position: absolute;
+      top: 500px;
+      right: 500px;
+      z-index: 1;
+}
+
+.coin--flip {
+      width: 5px;
+      height: 5px;
+      position: absolute;
+      z-index: 2;
+      visibility: hidden;
+}
+
+.coin__image:hover .coin--flip {
+      visibility: visible;
+      animation: coinflip 2s infinite;
+}
+
+@keyframes coinflip {
+      0% {
+            bottom: 0px;
+            left: 100px;
+            transform: rotateY(0deg);
+      }
+      50% {
+            bottom: 50px;
+            left: 100px;
+            width: 30px;
+            height: 30px;
+            transform: rotateY(720deg);
+      }
+      100% {
+            bottom: 0px;
+            left: 100px;
+            transform: rotateY(1440deg);
+      }
+};
