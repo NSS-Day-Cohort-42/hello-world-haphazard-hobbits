@@ -28,14 +28,19 @@
   padding: 0 3rem;
   list-style: none;
   border: 2px solid black;
-  width: 22rem;
+  width: 20rem;
 }
 
 .lists {
   display: flex;
   flex-direction: row;
-  margin-right: 3rem;
+  justify-content: center;
+  flex-wrap: wrap;
   margin-top: 0;
-  width: 100%;
-  max-width: 100%;
+  flex: 1 0 20rem;
+
+}
+
+article {
+  display: flex;
 }
