@@ -2,10 +2,15 @@
 @import "./header.css";
 @import "./footerList.css";
 @import "./footerItems.css";
+@import "./coinFlip.css";
 
 * {
   padding: 0;
   margin: 0;
+}
+
+.custom--cursor {
+  cursor: url(../images/hobbit-cursor-new.png), auto;
 }
 
 article {
@@ -20,4 +25,6 @@ img {
   width: 100%;
   max-width: 100%;
   margin-bottom: 0em;
+  z-index: -1;
 }
+

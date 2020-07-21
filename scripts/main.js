@@ -31,3 +31,9 @@ document.querySelector('.czech__button').addEventListener('click', czechPage)
 document.querySelector('.iceland__button').addEventListener('click', icelandPage)
 
 
+document.querySelector('button').addEventListener('click', function(){
+    document.querySelector('.button--color').style.color='goldenrod';    
+})
+
+
+
