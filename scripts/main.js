@@ -1,7 +1,7 @@
 import { cityData, landmarksData, headsData, imageData } from "./DataProvider.js"
 import { citiesHTML, landmarksHTML, headsOfStateHTML, mainImageHTML } from "./htmlCreator.js"
 import { listCities, listHeadsOfState, listLandmarks, clearLists, listImage } from "./lists.js"
-
+import { removeAllFlags, showCountryFlag } from "./flags.js"
 
 
 
@@ -40,14 +40,5 @@ document.querySelector('button').addEventListener('click', function(){
     document.querySelector('.button--color').style.color='goldenrod';    
 })
 
-const showCountryFlag = (countryName) => {
-  document.querySelector(`.${countryName}`).classList.add("active")
-}
 
-const removeAllFlags = () => {
-  const countryItems = document.querySelectorAll(".country__item")
-  countryItems.forEach(country => {
-    country.classList.remove("active")
-  })
-}
 
