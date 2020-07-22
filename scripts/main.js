@@ -5,19 +5,6 @@ import { removeAllFlags, showCountryFlag } from "./flags.js"
 
 
 
-const czechPage = event => {
-  displayPage("czech")  
-}
-const icelandPage = event => {
-  displayPage("iceland")  
-}
-const irelandPage = event => {
-  displayPage("ireland")  
-}
-const netherlandsPage = event => {
-  displayPage("netherlands")  
-}
-
 const displayPage = (countryName) => {
   removeAllFlags()
   showCountryFlag(countryName)
@@ -29,10 +16,10 @@ const displayPage = (countryName) => {
 }
 
 // Add event listeners to render page on click
-document.querySelector('.netherlands__button').addEventListener('click', netherlandsPage)
-document.querySelector('.ireland__button').addEventListener('click', irelandPage)
-document.querySelector('.czech__button').addEventListener('click', czechPage)
-document.querySelector('.iceland__button').addEventListener('click', icelandPage)
+document.querySelector('.netherlands__button').addEventListener('click', () => displayPage("netherlands"))
+document.querySelector('.ireland__button').addEventListener('click', () => displayPage("ireland"))
+document.querySelector('.czech__button').addEventListener('click', () => displayPage("czech"))
+document.querySelector('.iceland__button').addEventListener('click', () => displayPage("iceland"))
 
 
 // Add event listener to change header color
